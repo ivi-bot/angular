@@ -1,0 +1,15 @@
+<ul class="list-group list-group-horizontal justify-content-center mb-5">
+ 	
+    <!-- Utilice la directiva *ngFor para iterar el arreglo redes -->
+    <div class="card" *ngFor="let termino of redes">
+        <li class="list-group-item border-0" >
+            <a href="{{termino.href}}" class="text-primary">
+                <img width="25" src="{{termino.src}}" alt="{{termino.alt}} ">
+            </a>
+        </li>
+    
+      </div>
+
+
+
+</ul>
